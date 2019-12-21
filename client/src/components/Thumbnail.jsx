@@ -6,7 +6,8 @@ import React from "react";
 
 export default function Thumbnail(props) {
     const styles = {
-        width: '200px'
+        width: 'auto',
+        height: '150px'
     };
 
     return (
