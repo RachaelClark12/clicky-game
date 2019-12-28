@@ -14,10 +14,11 @@ export default function Thumbnail(props) {
         <img
             src={props.src}
             onClick={props.onClick}
-            className="img-thumbnail" 
+            className="img-thumbnail rounded" 
             style={styles}
             />
     );
 }
+
 
 

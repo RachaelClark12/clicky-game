@@ -32,18 +32,11 @@ class App extends Component {
     const clickedTile = evt.target.src;
 
     if (this.clickedTiles.includes(clickedTile)) {
-<<<<<<< HEAD
+            this.clickedTiles.length = 0;
+            this.setState({ score: 0 });
+
       this.clickedTiles.length = 0;
       this.setState({ score: 0 });
-
-
-=======
-      this.clickedTiles.length = 0;s
-      this.setState({ score: 0 });
-
-      //deploy to heroku  -
-      //shuffle array on mount
->>>>>>> 05efe8345db7301969397227320d85b026b15473
       return;
     }
 
